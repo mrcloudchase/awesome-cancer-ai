@@ -1,6 +1,14 @@
 # Awesome Cancer AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <img src="media/mascot.webp" width="420" alt="A young warrior princess with a teal ribbon raises a glowing sword while riding a winged unicorn, light cutting through dark clouds">
+</p>
+
 Artificial intelligence applied to cancer prevention, detection, diagnosis and treatment.
+
+**Why this list exists.** My daughter is seven. She is being treated for juvenile granulosa cell tumor, a cancer so rare that most of the tools below have never been pointed at it. The warrior on the winged unicorn above is her, as she sees herself: the light riding into the dark.
+
+Rare cancers get little attention because there are few patients, little data and little funding. AI changes that math. A model trained on thousands of common tumors can transfer to a handful of rare ones. A foundation model does not care how many cases exist. An agent can read every paper ever written on a disease in an afternoon. This list exists to make that work easier to find, easier to build on and harder to ignore, so that the next family does not have to start from nothing.
 
 Entries are open source code, open model weights or open data that have been used in cancer research. Where a project has gated weights, a non-commercial license or a dependency on a proprietary API, the description says so.
 
