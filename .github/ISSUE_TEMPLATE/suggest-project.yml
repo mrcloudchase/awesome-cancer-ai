@@ -1,0 +1,44 @@
+name: Suggest a project
+description: Suggest an AI project, dataset, or resource for the list.
+title: "Suggest: "
+labels: [suggestion]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: GitHub repository preferred, otherwise the primary site or model card.
+    validations:
+      required: true
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested section
+      options:
+        - Risk Prediction and Early Detection
+        - Pathology
+        - Radiology
+        - Genomics and Molecular Profiling
+        - Prognosis and Treatment Response
+        - Clinical Trial Matching
+        - Clinical Language Models and Agents
+        - Drug Discovery and Target Identification
+        - Pediatric and Rare Cancers
+        - Datasets and Benchmarks
+        - Surveys
+        - New section (explain below)
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it qualifies
+      description: What it does, its cancer scope, license, and whether weights or data are open or gated.
+    validations:
+      required: true

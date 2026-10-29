@@ -1,0 +1,16 @@
+name: Links
+
+on:
+  schedule:
+    - cron: "00 18 * * 1"
+  workflow_dispatch:
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: lycheeverse/lychee-action@v2
+        with:
+          args: --no-progress --accept 200,403,429 README.md archive.md contributing.md
+          fail: true
