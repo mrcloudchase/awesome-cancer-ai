@@ -126,6 +126,7 @@ Entries are open source code, open model weights or open data that have been use
 - [Childhood Cancer Data Initiative Hub](https://ccdi.cancer.gov/home) - NCI entry point to childhood cancer data and the Molecular Targets Platform.
 - [OpenPedCan](https://github.com/PediatricOpenTargets/OpenPedCan-analysis) - Open analysis pipeline harmonizing pediatric cancer data from OpenPBTA, TARGET and Kids First; CC0 data and BSD-3 code.
 - [Children's Brain Tumor Network](https://cbtn.org) - Consortium of 35 institutions sharing pediatric brain tumor biosamples, imaging and clinical data with collaborating investigators.
+- [jgct-ai](https://github.com/mrcloudchase/jgct-ai) - Agent-maintained, source-traceable knowledge base of everything published on juvenile granulosa cell tumor, with topic articles for clinicians and families, a patient-level dataset of published cases and pooled cohort tables; CC BY 4.0 content, MIT code.
 
 ## Datasets and Benchmarks
 
